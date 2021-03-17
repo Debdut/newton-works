@@ -7,7 +7,7 @@ const getLinks = require('./get-links')
 const getPage = require('./get-page')
 
 async function scrape () {
-  const browser = await puppeteer.launch({ headless: true })
+  const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] })
   const page = await browser.newPage()
   pageConfig(page)
   
