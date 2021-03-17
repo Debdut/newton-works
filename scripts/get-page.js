@@ -12,43 +12,43 @@ async function getPage (page, link) {
 
   await page.goto(url, { waitUntil: 'domcontentloaded' })
 
-  let html = await page.content()
+  // let html = await page.content()
   const delayTime = (html.length / 20) + 2000
-  let name = (await page.evaluate(() => {
+  const name = (await page.evaluate(() => {
     const heading = document.querySelector('h1')
     return heading.innerText
       .trim()
   }))
-  name = name
+  let partName = name
     .split('(')[0]
-  if (name.length > 0) {
-    name = name
+  if (partName.length > 0) {
+    partName = partName
       .substring(0, 50)
       .split(' ')
-    name.pop()
-    name = name
+    partName.pop()
+    partName = partName
       .join(' ')
   }
   
-  await delay(delayTime)
-  await page.evaluate(() => {
-    ['#contact', '#sponsors', '#hd', '#search', '#buttons']
-    .map(selector => document.querySelector(selector)
-    .remove())
-    const heading = document.querySelector('h1')
+  // await delay(delayTime)
+  // await page.evaluate(() => {
+  //   ['#contact', '#sponsors', '#hd', '#search', '#buttons']
+  //   .map(selector => document.querySelector(selector)
+  //   .remove())
+  //   const heading = document.querySelector('h1')
     
-    heading.style.fontSize = '50px'
-    heading.style.fontWeight = 500
-    heading.style.textAlign = 'center'
-  })
-  html = await page.content()
+  //   heading.style.fontSize = '50px'
+  //   heading.style.fontWeight = 500
+  //   heading.style.textAlign = 'center'
+  // })
+  // html = await page.content()
   
-  const fileName = filenamify(`${name} - Isaac Newton [${id}]`)
+  const fileName = filenamify(`${partName} - Isaac Newton [${id}]`)
 
-  await fs.writeFile(path.resolve(__dirname, '..', 'works', 'html', `${fileName}.html`), html)
-  await page.pdf({ path: path.resolve(__dirname, '..', 'works', 'pdf', `${fileName}.pdf`), format: 'A4' })
+  // await fs.writeFile(path.resolve(__dirname, '..', 'works', 'html', `${fileName}.html`), html)
+  // await page.pdf({ path: path.resolve(__dirname, '..', 'works', 'pdf', `${fileName}.pdf`), format: 'A4' })
 
-  return name
+  return { name, fileName }
 }
 
 module.exports = getPage

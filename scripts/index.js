@@ -20,17 +20,22 @@ async function scrape () {
   console.log('Fetching Pages')
   console.group()
 
+  let files = []
+
   for (let index = 0; index < links.length; index++) {
     const link = links[index]
     try {
-      const name = await getPage(page, link)
-      console.log(index+1, name)
+      const file = await getPage(page, link)
+      files = files.push(file)
+      console.log(index+1, file.name)
     } catch (error) {
       console.log(error.message)
     }
   }
 
   console.groupEnd()
+
+  await fs.writeFile(path.resolve(__dirname, '..', 'works', 'files.json'), JSON.stringify(files, null, 2))
 
   await browser.close()
 }
