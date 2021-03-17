@@ -14,6 +14,8 @@ Contrary to popular belief, geniuses are polymaths; Newton's dialogues span from
 - Theology, Religion, Philosophy
 - Personal & College Notebooks
 
+### Catalog of Documents
+
 See [Catalog](/Catalog.md)
 
 ### Sample Documents
@@ -31,6 +33,9 @@ See [Catalog](/Catalog.md)
 - [Part I, Chapter XI: Of the Times of the Birth and Passion of Christ](https://github.com/Debdut/newton-works/blob/master/works/pdf/Part%20I,%20Chapter%20XI!%20Of%20the%20Times%20of%20the%20Birth%20and%20-%20Isaac%20Newton%20%5BTHEM00205%5D.pdf)
 - [Part I, Chapter XII: Of the Prophecy of the Scripture of Truth](https://github.com/Debdut/newton-works/blob/master/works/pdf/Part%20I,%20Chapter%20XII!%20Of%20the%20Prophecy%20of%20the%20-%20Isaac%20Newton%20%5BTHEM00206%5D.pdf)
 
+### Downloads
+
+Check release for downloads
 
 ### Manuscripts
 
