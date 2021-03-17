@@ -37,10 +37,20 @@ async function scrape () {
   console.groupEnd()
 
   files
-    .sort((a, b) => a.id > b.id)
+    .sort((a, b) => compare(a.id, b.id))
   await fs.writeFile(path.resolve(__dirname, '..', 'works', 'files.json'), JSON.stringify(files, null, 2))
 
   await browser.close()
+}
+
+function compare (a, b) {
+  if (a > b) {
+    return 1
+  }
+  if (a < b) {
+    return -1 
+  }
+  return 0
 }
 
 scrape()
