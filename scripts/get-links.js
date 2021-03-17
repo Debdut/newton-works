@@ -6,7 +6,7 @@ async function getLinks (page) {
 
   console.group()
   
-  for (let index = 1; index < 10; index += 25) {
+  for (let index = 1; index < MAX_PAGES; index += 25) {
     const url = `${BASE_URL}&sr=${index}`
     try {
       const pageLinks = await getLinksonPage(page, url)

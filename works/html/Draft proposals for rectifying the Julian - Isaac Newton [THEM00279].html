@@ -1,0 +1,547 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" class=" js no-touch svg inlinesvg svgclippaths no-ie8compat"><head><title>Draft proposals for rectifying the Julian calendar (Normalized)</title><link href="/resources/css/np-main.css" rel="stylesheet" type="text/css" media="screen"><link href="/resources/css/texts-full.css" rel="stylesheet" type="text/css" media="screen,print"><link href="/resources/css/jquery.tooltip.css" rel="stylesheet" type="text/css" media="screen"><link href="/resources/css/jquery-ui-1.10.4.custom.min.css" rel="stylesheet" type="text/css" media="screen"><link href="/resources/css/superfish.css" rel="stylesheet" type="text/css"><link href="/resources/css/cookiecuttr.css" rel="stylesheet" type="text/css"><link href="/resources/css/print.css" rel="stylesheet" type="text/css" media="print"><script src="/resources/js/foundation/modernizr.foundation.js" type="text/JavaScript"></script><script src="/resources/js/jquery.js" type="text/JavaScript"></script><script src="/resources/js/np-cookies-min.js" type="text/JavaScript"></script><script src="/resources/js/jquery-ui.min.js" type="text/javascript"></script><script src="/resources/js/np-superfish-min.js" type="text/JavaScript"></script><script src="/resources/js/tei-interactivity.js" type="text/JavaScript"></script><style type="text/css">.MathJax_Preview {color: #888; display: contents}
+#MathJax_Message {position: fixed; left: 1px; bottom: 2px; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">.MathJax_Display {text-align: center; margin: 1em 0em; position: relative; display: block!important; text-indent: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; width: 100%}
+.MathJax .merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MathJax .MJX-monospace {font-family: monospace}
+.MathJax .MJX-sans-serif {font-family: sans-serif}
+#MathJax_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true'); padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.MathJax {display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; padding: 0; margin: 0}
+.MathJax:focus, body :focus .MathJax {display: inline-table}
+.MathJax.MathJax_FullWidth {text-align: center; display: table-cell!important; width: 10000em!important}
+.MathJax img, .MathJax nobr, .MathJax a {border: 0; padding: 0; margin: 0; max-width: 5000em; max-height: 5000em; min-width: 0; min-height: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+img.MathJax_strut {border: 0!important; padding: 0!important; margin: 0!important; vertical-align: 0!important}
+.MathJax span {display: inline; position: static; border: 0; padding: 0; margin: 0; vertical-align: 0; line-height: normal; text-decoration: none; box-sizing: content-box}
+.MathJax nobr {white-space: nowrap!important}
+.MathJax img {display: inline!important; float: none!important}
+.MathJax * {transition: none; -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none}
+.MathJax_Processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MathJax_Processed {display: none!important}
+.MathJax_test {font-style: normal; font-weight: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow: hidden; height: 1px}
+.MathJax_test.mjx-test-display {display: table!important}
+.MathJax_test.mjx-test-inline {display: inline!important; margin-right: -1px}
+.MathJax_test.mjx-test-default {display: block!important; clear: both}
+.MathJax_ex_box {display: inline-block!important; position: absolute; overflow: hidden; min-height: 0; max-height: none; padding: 0; border: 0; margin: 0; width: 1px; height: 60ex}
+.MathJax_em_box {display: inline-block!important; position: absolute; overflow: hidden; min-height: 0; max-height: none; padding: 0; border: 0; margin: 0; width: 1px; height: 60em}
+.mjx-test-inline .MathJax_left_box {display: inline-block; width: 0; float: left}
+.mjx-test-inline .MathJax_right_box {display: inline-block; width: 0; float: right}
+.mjx-test-display .MathJax_right_box {display: table-cell!important; width: 10000em!important; min-width: 0; max-width: none; padding: 0; border: 0; margin: 0}
+.MathJax .MathJax_HitBox {cursor: text; background: white; opacity: 0; filter: alpha(opacity=0)}
+.MathJax .MathJax_HitBox * {filter: none; opacity: 1; background: transparent}
+#MathJax_Tooltip * {filter: none; opacity: 1; background: transparent}
+@font-face {font-family: MathJax_Main; src: url('https://cdn.jsdelivr.net/npm/mathjax@2/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff?V=2.7.9') format('woff'), url('https://cdn.jsdelivr.net/npm/mathjax@2/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf?V=2.7.9') format('opentype')}
+@font-face {font-family: MathJax_Main-bold; src: url('https://cdn.jsdelivr.net/npm/mathjax@2/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff?V=2.7.9') format('woff'), url('https://cdn.jsdelivr.net/npm/mathjax@2/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf?V=2.7.9') format('opentype')}
+@font-face {font-family: MathJax_Main-italic; src: url('https://cdn.jsdelivr.net/npm/mathjax@2/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff?V=2.7.9') format('woff'), url('https://cdn.jsdelivr.net/npm/mathjax@2/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf?V=2.7.9') format('opentype')}
+@font-face {font-family: MathJax_Math-italic; src: url('https://cdn.jsdelivr.net/npm/mathjax@2/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff?V=2.7.9') format('woff'), url('https://cdn.jsdelivr.net/npm/mathjax@2/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf?V=2.7.9') format('opentype')}
+@font-face {font-family: MathJax_Caligraphic; src: url('https://cdn.jsdelivr.net/npm/mathjax@2/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Regular.woff?V=2.7.9') format('woff'), url('https://cdn.jsdelivr.net/npm/mathjax@2/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf?V=2.7.9') format('opentype')}
+@font-face {font-family: MathJax_Size1; src: url('https://cdn.jsdelivr.net/npm/mathjax@2/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff?V=2.7.9') format('woff'), url('https://cdn.jsdelivr.net/npm/mathjax@2/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf?V=2.7.9') format('opentype')}
+@font-face {font-family: MathJax_Size2; src: url('https://cdn.jsdelivr.net/npm/mathjax@2/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff?V=2.7.9') format('woff'), url('https://cdn.jsdelivr.net/npm/mathjax@2/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf?V=2.7.9') format('opentype')}
+@font-face {font-family: MathJax_Size3; src: url('https://cdn.jsdelivr.net/npm/mathjax@2/fonts/HTML-CSS/TeX/woff/MathJax_Size3-Regular.woff?V=2.7.9') format('woff'), url('https://cdn.jsdelivr.net/npm/mathjax@2/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf?V=2.7.9') format('opentype')}
+@font-face {font-family: MathJax_Size4; src: url('https://cdn.jsdelivr.net/npm/mathjax@2/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff?V=2.7.9') format('woff'), url('https://cdn.jsdelivr.net/npm/mathjax@2/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf?V=2.7.9') format('opentype')}
+</style></head><body class="no-js"><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_Hidden"></div></div><div id="MathJax_Message" style="display: none;"></div><div id="main_body"><div class="row"><div class="twelve columns"><div class="maintext"><!--start-text-container--><div id="text_container"><div id="header"><h1 style="font-size: 50px; font-weight: 500; text-align: center;">Draft proposals for rectifying the Julian calendar</h1><p class="author"><span class="metadataTitle">Author:</span> Isaac Newton</p><p class="metadataContent"><strong>Source:</strong> Yahuda Ms. 24c, National Library of Israel, Jerusalem, Israel</p><p class="metadataContent"><span class="metadataTitle">Published online:</span> November 2009</p><ul id="addmeta"><li id="additional" class="expandable"><span class="label"><span class="ui-icon ui-icon-triangle-1-e"></span>Additional Information</span><ul style="display: none;"><li class="expandable"><span class="label"><span class="ui-icon ui-icon-triangle-1-e"></span>Notes on the Electronic Edition</span><ul style="display: none;"><li>Some tables and calculations have been omitted from the transcription.</li><li>You are currently reading the normalized version of this text. Normalized transcriptions provide a tidied-up view of the original text. Editorial interventions are applied to expand abbreviations and correct textual mistakes. Additions are silently included within the body text and deleted text is not displayed. Switching to the diplomatic view of this text will show 61 deletions, reveal 41 additions and not apply 107 editorial regularizations.</li></ul></li><li class="expandable"><span class="label"><span class="ui-icon ui-icon-triangle-1-e"></span>Revision History</span><ul style="display: none;"><li class="expandable"><span class="label"><span class="ui-icon ui-icon-triangle-1-e"></span>1 January 2001</span><ul style="display: none;"><li>Catalogue information compiled by Rob Iliffe, Peter Spargo &amp; John Young</li></ul></li><li class="expandable"><span class="label"><span class="ui-icon ui-icon-triangle-1-e"></span>4 November 2009</span><ul style="display: none;"><li>Tagged transcription begun by John Young</li></ul></li><li class="expandable"><span class="label"><span class="ui-icon ui-icon-triangle-1-e"></span>5 November 2009</span><ul style="display: none;"><li>Transcription completed by John Young</li></ul></li><li class="expandable"><span class="label"><span class="ui-icon ui-icon-triangle-1-e"></span>14 November 2009</span><ul style="display: none;"><li>Proofed by Robert Iliffe</li></ul></li><li class="expandable"><span class="label"><span class="ui-icon ui-icon-triangle-1-e"></span>29 September 2011</span><ul style="display: none;"><li>Catalogue exported to teiHeader by Michael Hawkins</li></ul></li></ul></li><li class="nobullet-indent">Download <a href="/view/texts/xml/THEM00279">THEM00279.xml</a> and <a href="/resources/misc/np-schema.zip">schema</a> (advanced users only)</li></ul></li><li id="related_texts" class="expandable"><span class="label"><span class="ui-icon ui-icon-triangle-1-e"></span>Related Texts</span><ul style="display: none;"><li><div id="part_of"><p><strong>This document is part of Yahuda Ms. 24</strong></p><p>The previous part of this document is <a href="/view/texts/normalized/THEM00278">'The use of the Kalendar for finding the Lords day &amp; the Moveable Feasts' [Yahuda Ms. 24b]</a></p><p>The next part of this document is <a href="/view/texts/normalized/THEM00280">Draft proposals for calendar reform [Yahuda Ms. 24d]</a></p></div></li></ul></li></ul></div><div id="tei">
+
+<div>
+<span class="pagenumber" id="p001r"> &lt;1r&gt; </span>
+<p id="par1">The Iulian year now in use is very irregular, February has but 28 days &amp; the other months <a id="l1"></a>30 &amp; 31 days without any regular order or reason for the irregularity.</p>
+<p id="par2">The best form of the solar year is to divide it  by the 4 cardinal periods <a id="l2"></a>of the Equinoxes &amp; Solstices into 4  quarters, so that the quarters of the yeare may <a id="l3"></a>begin at the Equinoxes &amp; Solstices  as they ought to do, &amp; then to divide every quarter <a id="l4"></a>into 3 equal months which will be done by making the six winter months to con<a id="l5"></a>sist of 30 days each &amp; the six summer months  of 31 days each  <a id="l7"></a>excepting one of them (suppose the last) which in the leap year shall have 31 days <a id="l8"></a>in the other thre years  only 30 days. / At the end of every hundred years  omit <a id="l9"></a>the intercalary day in the leap year excepting  at the end of every five hundred <a id="l10"></a>years. For this rule is exacter then the Gregorian of omitting it at the end of <a id="l11"></a>every hundred years excepting at the end of every 400 years. And this recconing <a id="l12"></a>by five hundreds &amp; thousands of years is rounder then the other by four,  <a id="l13"></a>eight  &amp; twelve hundreds. And this I take to be the simplest &amp; in all respects the best form of the <a id="l14"></a>civil year that can be thought of. </p>
+<p id="par3"> And this is all the reformation of the year which need be made at first</p>
+<p id="par4"> As for the Ecclesiastical year if the fixt Feasts be still placed <a id="l15"></a>on the same days of the months  of this New Year as in the Iulian year, they will come <a id="l16"></a>nearer to the truth then they do at present. For they are now become about <a id="l17"></a>14 days  later  then they were in the first century in respect of summer &amp; winter whereas in this new year they  <a id="l19"></a>will be  only eight or 9 days  sooner. So that the  Calendar will be <a id="l20"></a> amended almost half in half by this new year without  translating the fixt feasts to other <a id="l21"></a>days of the months.</p>
+<p id="par5">But if it may be allowed to translate them to other days of the months <a id="l22"></a>so as to bring them nearer to the places where they were in the first Century <a id="l23"></a>in respect of Summer and Winter the Calendar may be still amended as <a id="l24"></a>follows. </p>
+<p id="par6">1. Let Lady day (the first day of the Ecclesiastical year) be removed from the 25<sup>t</sup> of March to the first of Aprill <a id="l25"></a>&amp; the Ecclesiastical year will begin  at the Equinox &amp; on the first <a id="l26"></a>day of the month as it ought to do, whereas in the present Iulian year <a id="l27"></a>it begins neither  at the Equinox nor on the first day of  the month <a id="l28"></a>but on the 25<sup>t</sup> of March  &amp; 16 days after the Equinox.</p>
+<p id="par7">2. Let Michaelmas be removed from the 29 of September to the <a id="l29"></a>1<sup>st</sup> of October  &amp; the two principal days of payment will fall <a id="l30"></a>on the Equinoxes &amp; on the first days of the  months which begin the spring &amp; autumnal <a id="l31"></a>quarters of the year which is very proper &amp;  ready for recconing, &amp; <a id="l32"></a>also more just for contracts.  For the summer half year is eleven days <a id="l33"></a> longer then the winter half year in the vulgar Calendar but in  this new <a id="l34"></a>one the difference will be but 5 days.</p>
+<p id="par8">3  In like manner To regulate the days of quarterly payments let  S<sup>t</sup> Iohn Baptists <span class="supplied" title="This text has been supplied by the editor"><span class="nb-n">{</span>day<span class="nb-n">}</span></span> <a id="l35"></a>be removed from the  24<sup>th</sup> of Iune to the 1<sup>st</sup> of Iuly <a id="l36"></a>&amp; Christmas day from the 25<sup>t</sup> of December to the 1<sup>st</sup>  of Ianuary or  <a id="l37"></a> perhaps to the 2<sup>d</sup> that it may be distinguished from New years day.</p>
+<p id="par9">Thus will the year become fitter for civil uses &amp;  the festivals <a id="l38"></a> reduced  within a day or two to the places where <a id="l39"></a>they were in the first Century in respect of summer &amp; winter: whereas they <a id="l40"></a>now err 14 days from those places. And the like correction may be made <span class="pagenumber-embed" id="p001v"> &lt;1v&gt; </span> <span class="supplied" title="This text has been supplied by the editor"><span class="nb-n">{</span>to<span class="nb-n">}</span></span> all the other unmoveable Festivals, by setting them 7 or 8 days later.</p>
+<p id="par10">Easter is determined by making it the first Sunday after the first full <a id="l41"></a>Moon after  the first of April. And the rest of the moveable Feasts are deter<a id="l42"></a>mined by their distance from Easter as in the Vulgar Calendar.</p>
+<p id="par11">The old Rule for finding Easter by the Prime &amp; Dominical Letter is to be <a id="l43"></a>corrected at the end of every  hundred or two hundred years by Ecclesiastical authority &amp; so is the <a id="l44"></a>Rule for finding the new Moon by the Epact in the margin of the Calendar, <a id="l45"></a>&amp; with such correction both Rules may  be retained for ever.</p>
+<sup class="note" id="ed1-ref">[Editorial&nbsp;Note&nbsp;1]</sup>
+<span class="pagenumber" id="p002v"> &lt;2v&gt; </span>
+<p id="par12" class="i0">Ianuary</p>
+<div class="transtable"><table>
+<tbody><tr><td>1</td><td>9</td><td>New years d.</td></tr>
+<tr><td>2</td><td>10</td></tr>
+<tr><td>3</td><td>11</td><td>Christmas</td></tr>
+<tr><td>4</td><td>12</td><td>S<sup>t</sup> Stephen</td></tr>
+<tr><td>5</td><td>13</td><td>S<sup>t</sup> Iohn</td></tr>
+<tr><td>6</td><td>14</td><td>S<sup>t</sup> Innocents</td></tr>
+<tr><td>7</td><td>15</td></tr>
+<tr><td>8</td><td>16</td></tr>
+<tr><td>9</td><td>17</td></tr>
+<tr><td>10</td><td>18</td><td>Circumcision</td></tr>
+<tr><td>11</td><td>19</td></tr>
+<tr><td>12</td><td>20</td></tr>
+<tr><td>13</td><td>21</td><td>Twelft d.</td></tr>
+<tr><td>14</td><td>22</td></tr>
+<tr><td>15</td><td>23</td></tr>
+<tr><td>16</td><td>24</td></tr>
+<tr><td>17</td><td>25</td></tr>
+<tr><td>18</td><td>26</td></tr>
+<tr><td>19</td><td>27</td></tr>
+<tr><td>20</td><td>28</td></tr>
+<tr><td>21</td><td>29</td></tr>
+<tr><td>22</td><td>30</td></tr>
+<tr><td>23</td><td>31</td></tr>
+<tr><td>24</td><td>1</td><td>Ian</td></tr>
+<tr><td>25</td><td>2</td></tr>
+<tr><td>26</td><td>3</td></tr>
+<tr><td>27</td><td>4</td></tr>
+<tr><td>28</td><td>5</td></tr>
+<tr><td>29</td><td>6</td></tr>
+<tr><td>30</td><td>7</td></tr>
+</tbody></table></div>
+<p id="par13" class="i0">February</p>
+<div class="transtable"><table>
+<tbody><tr><td>1</td><td>8</td></tr>
+<tr><td>2</td><td>8</td></tr>
+<tr><td>3</td><td>10</td></tr>
+<tr><td>4</td><td>11</td><td>Convers S. Paul</td></tr>
+<tr><td>5</td><td>12</td></tr>
+<tr><td>6</td><td>13</td></tr>
+<tr><td>7</td><td>14</td></tr>
+<tr><td>8</td><td>15</td></tr>
+<tr><td>9</td><td>16</td></tr>
+<tr><td>10</td><td>17</td></tr>
+<tr><td>11</td><td>18</td></tr>
+<tr><td>12</td><td>19</td><td>Candlemas</td></tr>
+<tr><td>13</td><td>20</td></tr>
+<tr><td>14</td><td>21</td></tr>
+<tr><td>15</td><td>22</td></tr>
+<tr><td>16</td><td>23</td></tr>
+<tr><td>17</td><td>24</td></tr>
+<tr><td>18</td><td>25</td></tr>
+<tr><td>19</td><td>26</td></tr>
+<tr><td>20</td><td>27</td></tr>
+<tr><td>21</td><td>28</td></tr>
+<tr><td>22</td><td>29</td></tr>
+<tr><td>23</td><td>30</td></tr>
+<tr><td>24</td><td>31</td></tr>
+<tr><td>25</td><td>1</td><td>Feb</td></tr>
+<tr><td>26</td><td>2</td></tr>
+<tr><td>27</td><td>3</td></tr>
+<tr><td>28</td><td>4</td></tr>
+<tr><td>29</td><td>5</td></tr>
+<tr><td>30</td><td>6</td></tr>
+</tbody></table></div>
+
+<p id="par14" class="i0">March</p>
+<div class="transtable"><table>
+<tbody><tr><td>1</td><td>7</td></tr>
+<tr><td>2</td><td>8</td></tr>
+<tr><td>3</td><td>9</td></tr>
+<tr><td>4</td><td>10</td><td>S. Matthias</td></tr>
+<tr><td>5</td><td>11</td></tr>
+<tr><td>6</td><td>12</td></tr>
+<tr><td>7</td><td>13</td></tr>
+<tr><td>8</td><td>14</td></tr>
+<tr><td>9</td><td>15</td></tr>
+<tr><td>10</td><td>16</td></tr>
+<tr><td>11</td><td>17</td></tr>
+<tr><td>12</td><td>18</td></tr>
+<tr><td>13</td><td>19</td></tr>
+<tr><td>14</td><td>20</td></tr>
+<tr><td>15</td><td>21</td></tr>
+<tr><td>16</td><td>22</td></tr>
+<tr><td>17</td><td>23</td></tr>
+<tr><td>18</td><td>24</td></tr>
+<tr><td>19</td><td>25</td></tr>
+<tr><td>20</td><td>26</td></tr>
+<tr><td>21</td><td>27</td></tr>
+<tr><td>22</td><td>28</td></tr>
+<tr><td>23</td><td>1</td><td>March</td></tr>
+<tr><td>24</td><td>2</td></tr>
+<tr><td>25</td><td>3</td></tr>
+<tr><td>26</td><td>4</td></tr>
+<tr><td>27</td><td>5</td></tr>
+<tr><td>28</td><td>6</td></tr>
+<tr><td>29</td><td>7</td></tr>
+<tr><td>30</td><td>8</td></tr>
+</tbody></table></div>
+<p id="par15" class="i0">April</p>
+<div class="transtable"><table>
+<tbody><tr><td>1</td><td>9</td></tr>
+<tr><td>2</td><td>10</td></tr>
+<tr><td>3</td><td>11</td><td>Lady day</td></tr>
+<tr><td>4</td><td>12</td></tr>
+<tr><td>5</td><td>13</td></tr>
+<tr><td>6</td><td>14</td></tr>
+<tr><td>7</td><td>15</td></tr>
+<tr><td>8</td><td>16</td></tr>
+<tr><td>9</td><td>17</td></tr>
+<tr><td>10</td><td>18</td></tr>
+<tr><td>11</td><td>19</td></tr>
+<tr><td>12</td><td>20</td></tr>
+<tr><td>13</td><td>21</td></tr>
+<tr><td>14</td><td>22</td></tr>
+<tr><td>15</td><td>23</td></tr>
+<tr><td>16</td><td>24</td></tr>
+<tr><td>17</td><td>25</td></tr>
+<tr><td>18</td><td>26</td></tr>
+<tr><td>19</td><td>27</td></tr>
+<tr><td>20</td><td>28</td></tr>
+<tr><td>21</td><td>29</td></tr>
+<tr><td>22</td><td>30</td></tr>
+<tr><td>23</td><td>31</td></tr>
+<tr><td>24</td><td>1</td><td>Apr</td></tr>
+<tr><td>25</td><td>2</td></tr>
+<tr><td>26</td><td>3</td></tr>
+<tr><td>27</td><td>4</td></tr>
+<tr><td>28</td><td>5</td></tr>
+<tr><td>29</td><td>6</td></tr>
+<tr><td>30</td><td>7</td></tr>
+<tr><td>31</td><td>8</td></tr>
+</tbody></table></div>
+
+<p id="par16" class="i0">May</p>
+<div class="transtable"><table>
+<tbody><tr><td>1</td><td>9</td></tr>
+<tr><td>2</td><td>10</td></tr>
+<tr><td>3</td><td>11</td><td>S. Mark</td></tr>
+<tr><td>4</td><td>12</td></tr>
+<tr><td>5</td><td>13</td></tr>
+<tr><td>6</td><td>14</td></tr>
+<tr><td>7</td><td>15</td></tr>
+<tr><td>8</td><td>16</td></tr>
+<tr><td>9</td><td>17</td><td>Phil. &amp; Iac.</td></tr>
+<tr><td>10</td><td>18</td></tr>
+<tr><td>11</td><td>19</td></tr>
+<tr><td>12</td><td>20</td></tr>
+<tr><td>13</td><td>21</td></tr>
+<tr><td>14</td><td>22</td></tr>
+<tr><td>15</td><td>23</td></tr>
+<tr><td>16</td><td>24</td></tr>
+<tr><td>17</td><td>25</td></tr>
+<tr><td>18</td><td>26</td></tr>
+<tr><td>19</td><td>27</td></tr>
+<tr><td>20</td><td>28</td></tr>
+<tr><td>21</td><td>29</td></tr>
+<tr><td>22</td><td>30</td></tr>
+<tr><td>23</td><td>1</td><td>May</td></tr>
+<tr><td>24</td><td>2</td></tr>
+<tr><td>25</td><td>3</td></tr>
+<tr><td>26</td><td>4</td></tr>
+<tr><td>27</td><td>5</td></tr>
+<tr><td>28</td><td>6</td></tr>
+<tr><td>29</td><td>7</td></tr>
+<tr><td>30</td><td>8</td></tr>
+<tr><td>31</td><td>9</td></tr>
+</tbody></table></div>
+<p id="par17" class="i0">Iune</p>
+<div class="transtable"><table>
+<tbody><tr><td>1</td><td>10</td></tr>
+<tr><td>2</td><td>11</td></tr>
+<tr><td>3</td><td>12</td></tr>
+<tr><td>4</td><td>13</td></tr>
+<tr><td>5</td><td>14</td></tr>
+<tr><td>6</td><td>15</td></tr>
+<tr><td>7</td><td>16</td></tr>
+<tr><td>8</td><td>17</td></tr>
+<tr><td>9</td><td>18</td></tr>
+<tr><td>10</td><td>19</td></tr>
+<tr><td>11</td><td>20</td></tr>
+<tr><td>12</td><td>21</td></tr>
+<tr><td>13</td><td>22</td></tr>
+<tr><td>14</td><td>23</td></tr>
+<tr><td>15</td><td>24</td></tr>
+<tr><td>16</td><td>25</td></tr>
+<tr><td>17</td><td>26</td></tr>
+<tr><td>18</td><td>27</td></tr>
+<tr><td>19</td><td>28</td><td>S Barnabas</td></tr>
+<tr><td>20</td><td>29</td></tr>
+<tr><td>21</td><td>30.</td></tr>
+<tr><td>22</td><td>31</td></tr>
+<tr><td>23</td><td>1</td><td>Iune</td></tr>
+<tr><td>24</td><td>2</td></tr>
+<tr><td>25</td><td>3</td></tr>
+<tr><td>26</td><td>4</td></tr>
+<tr><td>27</td><td>5</td></tr>
+<tr><td>28</td><td>6</td></tr>
+<tr><td>29</td><td>7</td></tr>
+<tr><td>30</td><td>8</td></tr>
+<tr><td>31</td><td>9</td></tr>
+</tbody></table></div>
+<span class="pagenumber" id="p002r"> &lt;2r&gt; </span>
+<p id="par18" class="i0">Iuly</p>
+<div class="transtable"><table>
+<tbody><tr><td>1</td><td>10</td><td>Iune. Iohn Bapt</td></tr>
+<tr><td>2</td><td>11</td></tr>
+<tr><td>3</td><td>12</td></tr>
+<tr><td>4</td><td>13</td></tr>
+<tr><td>5</td><td>14</td></tr>
+<tr><td>6</td><td>15</td><td>Pet &amp; Paul</td></tr>
+<tr><td>7</td><td>16</td></tr>
+<tr><td>8</td><td>17</td></tr>
+<tr><td>9</td><td>18</td></tr>
+<tr><td>10</td><td>19</td></tr>
+<tr><td>11</td><td>20</td></tr>
+<tr><td>12</td><td>21</td></tr>
+<tr><td>13</td><td>22</td></tr>
+<tr><td>14</td><td>23</td></tr>
+<tr><td>15</td><td>24</td></tr>
+<tr><td>16</td><td>25</td></tr>
+<tr><td>17</td><td>26</td></tr>
+<tr><td>18</td><td>27</td></tr>
+<tr><td>19</td><td>28</td></tr>
+<tr><td>20</td><td>29</td></tr>
+<tr><td>21</td><td>30</td></tr>
+<tr><td>22</td><td> 1</td><td>Iuly</td></tr>
+<tr><td>23</td><td>2</td></tr>
+<tr><td>24</td><td>3</td></tr>
+<tr><td>25</td><td>4</td></tr>
+<tr><td>26</td><td>5</td><td>Dog days beg.</td></tr>
+<tr><td>27</td><td>6</td></tr>
+<tr><td>28</td><td>7</td></tr>
+<tr><td>29</td><td>8</td></tr>
+<tr><td>30</td><td>9</td></tr>
+<tr><td>31</td><td>10</td></tr>
+</tbody></table></div>
+<p id="par19" class="i0">August</p>
+<div class="transtable"><table>
+<tbody><tr><td>1</td><td>11</td><td>S Iames</td></tr>
+<tr><td>2</td><td>12</td></tr>
+<tr><td>3</td><td>13</td></tr>
+<tr><td>4</td><td>14</td></tr>
+<tr><td>5</td><td>15</td></tr>
+<tr><td>6</td><td>16</td></tr>
+<tr><td>7</td><td>17</td></tr>
+<tr><td>8</td><td>18</td></tr>
+<tr><td>9</td><td>19</td><td>Lammas</td></tr>
+<tr><td>10</td><td>20</td></tr>
+<tr><td>11</td><td>21</td></tr>
+<tr><td>12</td><td>22</td></tr>
+<tr><td>13</td><td>23</td></tr>
+<tr><td>14</td><td>24</td></tr>
+<tr><td>15</td><td>25</td></tr>
+<tr><td>16</td><td>26</td></tr>
+<tr><td>17</td><td>27</td></tr>
+<tr><td>18</td><td>28</td></tr>
+<tr><td>19</td><td>29</td></tr>
+<tr><td>20</td><td>30</td></tr>
+<tr><td>21</td><td>31</td></tr>
+<tr><td>22</td><td>1</td><td>Aug</td></tr>
+<tr><td>23</td><td>2</td></tr>
+<tr><td>24</td><td>3</td></tr>
+<tr><td>25</td><td>4</td></tr>
+<tr><td>26</td><td>5</td></tr>
+<tr><td>27</td><td>6</td></tr>
+<tr><td>28</td><td>7</td></tr>
+<tr><td>29</td><td>8</td></tr>
+<tr><td>30</td><td>9</td></tr>
+<tr><td>31</td><td>10</td><td>S. Bartholo.</td></tr>
+</tbody></table></div>
+
+<p id="par20" class="i0">Septemb.</p>
+<div class="transtable"><table>
+<tbody><tr><td>1</td><td>11</td></tr>
+<tr><td>2</td><td>12</td></tr>
+<tr><td>3</td><td>13</td></tr>
+<tr><td>4</td><td>14</td></tr>
+<tr><td>5</td><td>15</td></tr>
+<tr><td>6</td><td>16</td></tr>
+<tr><td>7</td><td>17</td></tr>
+<tr><td>8</td><td>18</td></tr>
+<tr><td>9</td><td>19</td></tr>
+<tr><td>10</td><td>20</td></tr>
+<tr><td>11</td><td>21</td></tr>
+<tr><td>12</td><td>22</td></tr>
+<tr><td>13</td><td>23</td></tr>
+<tr><td>14</td><td>24</td></tr>
+<tr><td>15</td><td>25</td></tr>
+<tr><td>16</td><td>26</td></tr>
+<tr><td>17</td><td>27</td></tr>
+<tr><td>18</td><td>28</td></tr>
+<tr><td>19</td><td>29</td></tr>
+<tr><td>20</td><td>30</td></tr>
+<tr><td>21</td><td>31</td></tr>
+<tr><td>22</td><td>1</td><td>Sept</td></tr>
+<tr><td>23</td><td>2</td></tr>
+<tr><td>24</td><td>3</td></tr>
+<tr><td>25</td><td>4</td></tr>
+<tr><td>26</td><td>5</td></tr>
+<tr><td>27</td><td>6</td></tr>
+<tr><td>28</td><td>7</td><td>S. Matthew</td></tr>
+<tr><td>29</td><td>8</td></tr>
+<tr><td>30</td><td>9</td></tr>
+<tr><td>*</td><td></td></tr>
+</tbody></table></div>
+<p id="par21" class="i0">Octob.</p>
+<div class="transtable"><table>
+<tbody><tr><td>1</td><td>10</td></tr>
+<tr><td>2</td><td>11</td></tr>
+<tr><td>3</td><td>12</td></tr>
+<tr><td>4</td><td>13</td></tr>
+<tr><td>5</td><td>14</td></tr>
+<tr><td>6</td><td>15</td><td>S. Mich.</td></tr>
+<tr><td>7</td><td></td></tr>
+<tr><td>8</td><td></td></tr>
+<tr><td>9</td><td></td></tr>
+<tr><td>10</td><td></td></tr>
+<tr><td>11</td><td></td></tr>
+<tr><td>12</td><td></td></tr>
+<tr><td>13</td><td></td></tr>
+<tr><td>14</td><td></td></tr>
+<tr><td>15</td><td></td></tr>
+<tr><td>16</td><td></td></tr>
+<tr><td>17</td><td></td></tr>
+<tr><td>18</td><td></td></tr>
+<tr><td>19</td><td></td></tr>
+<tr><td>20</td><td>29</td></tr>
+<tr><td>21</td><td>30</td></tr>
+<tr><td>22</td><td>1</td><td>Octob</td></tr>
+<tr><td>23</td><td>2</td></tr>
+<tr><td>24</td><td>3</td></tr>
+<tr><td>25</td><td>4</td><td>S. Luke</td></tr>
+<tr><td>26</td><td>5</td></tr>
+<tr><td>27</td><td>6</td></tr>
+<tr><td>28</td><td>7</td></tr>
+<tr><td>29</td><td>8</td></tr>
+<tr><td>30</td><td>9</td></tr>
+</tbody></table></div>
+
+<p id="par22" class="i0">Novemb.</p>
+<div class="transtable"><table>
+<tbody><tr><td>1</td><td>10</td><td>Oct</td></tr>
+<tr><td>2</td><td>11</td></tr>
+<tr><td>3</td><td>12</td></tr>
+<tr><td>4</td><td>13</td></tr>
+<tr><td>5</td><td>14</td><td>St Iude</td></tr>
+<tr><td>6</td><td>15</td></tr>
+<tr><td>7</td><td>16</td></tr>
+<tr><td>8</td><td>17</td></tr>
+<tr><td>9</td><td>18</td><td>All Saints</td></tr>
+<tr><td>10</td><td>19</td></tr>
+<tr><td>11</td><td>20</td></tr>
+<tr><td>12</td><td>21</td></tr>
+<tr><td>13</td><td>22</td><td>Pouder Treason</td></tr>
+<tr><td>14</td><td>23</td></tr>
+<tr><td>15</td><td>24</td></tr>
+<tr><td>16</td><td>25</td></tr>
+<tr><td>17</td><td>26</td></tr>
+<tr><td>18</td><td>27</td></tr>
+<tr><td>19</td><td>28</td></tr>
+<tr><td>20</td><td>29</td></tr>
+<tr><td>21</td><td>30</td></tr>
+<tr><td>22</td><td>31</td></tr>
+<tr><td>23</td><td>1</td><td>Novemb.</td></tr>
+<tr><td>24</td><td>2</td></tr>
+<tr><td>25</td><td>3</td></tr>
+<tr><td>26</td><td>4</td></tr>
+<tr><td>27</td><td>5</td></tr>
+<tr><td>28</td><td>6</td></tr>
+<tr><td>29</td><td>7</td></tr>
+<tr><td>30</td><td>8</td></tr>
+</tbody></table></div>
+<p id="par23" class="i0">Decemb</p>
+<div class="transtable"><table>
+<tbody><tr><td>1</td><td>9</td></tr>
+<tr><td>2</td><td>10</td></tr>
+<tr><td>3</td><td>11</td></tr>
+<tr><td>4</td><td>12</td></tr>
+<tr><td>5</td><td>13</td></tr>
+<tr><td>6</td><td>14</td></tr>
+<tr><td>7</td><td>15</td></tr>
+<tr><td>8</td><td>16</td><td>S. Andrew</td></tr>
+<tr><td>9</td><td>17</td></tr>
+<tr><td>10</td><td>18</td></tr>
+<tr><td>11</td><td>19</td></tr>
+<tr><td>12</td><td>20</td></tr>
+<tr><td>13</td><td>21</td></tr>
+<tr><td>14</td><td>22</td></tr>
+<tr><td>15</td><td>23</td></tr>
+<tr><td>16</td><td>24</td></tr>
+<tr><td>17</td><td>25</td></tr>
+<tr><td>18</td><td>26</td></tr>
+<tr><td>19</td><td>27</td></tr>
+<tr><td>20</td><td>28</td></tr>
+<tr><td>21</td><td>29</td></tr>
+<tr><td>22</td><td>30</td></tr>
+<tr><td>23</td><td>1</td><td>Dec</td></tr>
+<tr><td>24</td><td>2</td></tr>
+<tr><td>25</td><td>3</td></tr>
+<tr><td>26</td><td>4</td></tr>
+<tr><td>27</td><td>5</td></tr>
+<tr><td>28</td><td>6</td></tr>
+<tr><td>29</td><td>7</td><td>S. Thomas</td></tr>
+<tr><td>30</td><td>8</td></tr>
+</tbody></table></div>
+<sup class="note" id="ed2-ref">[Editorial&nbsp;Note&nbsp;2]</sup>
+<span class="pagenumber" id="p003v"> &lt;3v&gt; </span>
+<p id="par24">Make Ian 1 1701 the 2<sup>d</sup> day <a id="l46"></a>of the first month of the <a id="l47"></a>second cycle</p>
+<p id="par25">Or make Decem 31 1700 the <a id="l48"></a>first day of the first month of the <a id="l49"></a>second cycle.</p>
+<p id="par26">Or if the 1<sup>st</sup> &amp; last cycle have 17 months &amp; the <a id="l50"></a>middlemost 15, make Decemb 31 1700 the first day <a id="l51"></a>of the great cycle of 49 months.</p>
+<p id="par27">NB.  Anno 1780 Mar 20 st. n. hor. 16 48′ post mediam noctem Luna media fuit plena <a id="l52"></a>et hora 10<span class="MathJax_Preview" style=""></span><span class="MathJax" id="MathJax-Element-1-Frame" tabindex="0" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mfrac><mn>3</mn><mn>4</mn></mfrac></math>" role="presentation" style="position: relative;"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-1" style="width: 0.712em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.709em; height: 0px; font-size: 97%;"><span style="position: absolute; clip: rect(1.339em, 1000.71em, 3.051em, -1000em); top: -2.448em; left: 0em;"><span class="mrow" id="MathJax-Span-2"><span class="mfrac" id="MathJax-Span-3"><span style="display: inline-block; position: relative; width: 0.474em; height: 0px; margin-right: 0.12em; margin-left: 0.12em;"><span style="position: absolute; clip: rect(3.331em, 1000.32em, 4.204em, -1000em); top: -4.441em; left: 50%; margin-left: -0.177em;"><span class="mn" id="MathJax-Span-4" style="font-size: 70.7%; font-family: MathJax_Main;">3</span><span style="display: inline-block; width: 0px; height: 3.995em;"></span></span><span style="position: absolute; clip: rect(3.323em, 1000.33em, 4.188em, -1000em); top: -3.585em; left: 50%; margin-left: -0.177em;"><span class="mn" id="MathJax-Span-5" style="font-size: 70.7%; font-family: MathJax_Main;">4</span><span style="display: inline-block; width: 0px; height: 3.995em;"></span></span><span style="position: absolute; clip: rect(0.822em, 1000.47em, 1.289em, -1000em); top: -1.315em; left: 0em;"><span style="display: inline-block; overflow: hidden; vertical-align: 0em; border-top: 1.3px solid; width: 0.474em; height: 0px;"></span><span style="display: inline-block; width: 0px; height: 1.095em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 2.448em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.46em; border-left: 0px solid; width: 0px; height: 1.411em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>3</mn><mn>4</mn></mfrac></math></span></span><script type="math/mml" id="MathJax-Element-1"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>3</mn><mn>4</mn></mfrac></math></script> circiter Luna  apparens fuit plena. Lit. Domin B. A. Epact 29 <a id="l53"></a>Aur. num. 14 Pascha Mar 26 juxta cal Greg. Rectius Luna plena Apr. 19. 5<sup>h</sup> post med. noct <a id="l54"></a>Pasch Apr 23 st.  n.</p>
+<p id="par28">Item anno 1867. Aur num 6. Epact 1. Luna media plena Mar 20. 14<sup>h</sup> 49′ <a id="l55"></a>et iterum Apr 19. 3<sup>h</sup>. 33′. Litera Dominica F. Pascha Ap. 21. Had the Dominical letter <a id="l56"></a>been D the Pascha would have been on the new moon Apr 19.</p>
+<span class="pagenumber" id="p004r"> &lt;4r&gt; </span>
+<p id="par29">The only feasts in the beginning till the reign of Trajan <a id="l57"></a>were the Lords day, Easter &amp; Whitsonday. See Origen l 8 cont. Cels. <a id="l58"></a>Christmas began to be celebrated in divers places about the year <a id="l59"></a>190 (Theophilus Cæsariensis in epist. paschal.</p>
+<p id="par30" class="i0"> The Martyrs began to be commemorated on their passion <a id="l60"></a>days about the year 170 &amp; these days at length  were cele<a id="l61"></a>brated as Feasts.  by the institution of Constantine the great <a id="l62"></a>Euseb. in vit. Const. l. 4 who also instituted the observation of <a id="l63"></a>friday. Euseb. ib. The heathen Feasts turned into the Christian <a id="l64"></a>Theodoret l 8 de martyribus &amp; Greg. M. l 9 cap 71 citante Hospin. <a id="l65"></a>De Origin. Christ. Fest. p 15.</p>
+<p id="par31">The Greeks celebrated the Epiphany or baptism of Christ <a id="l66"></a>on the same day with his birth, the latines on Ian 6 Hospin ad Ian 6.</p>
+<p id="par32" class="i0">Timothy martyred on Ian 24. Pauli Conversio Ian 25. The burning of <a id="l67"></a>lights on Candlemas day Feb 2 taken from the sacra of Ceres <a id="l68"></a>seeking her daughter Proserpina with lighted torches. Feb 1 <a id="l69"></a>The Bacchinal rights turned into Christian carnivals in the 3 <a id="l70"></a>first days of the Quinquagesima or week before Lent. Matthi<a id="l71"></a>as Feb. 24. Festum annunciationis Mariæ Mart. 25. S<sup>t</sup> Mark <a id="l72"></a>martyred Apr. 25. The Greeks celebrated to all the Apostles the feast of Peter &amp; Paul  Iun 29 the Latines that of Philip &amp; Iames May 1. At length <a id="l74"></a>the day is left Phil. &amp; Iames alone. Quadratus May 26. <a id="l75"></a>Nativity of Iohn Baptist Iune 24. Peter &amp; Paul on Iune <a id="l76"></a>29 on which day the Heathens celebrated the feast of Hercules <a id="l77"></a>&amp; the Muses. Iuly 25 S<sup>t</sup> Iames. Aug. 24 S<sup>t</sup> Bartholomew <a id="l78"></a>Sept 21 S<sup>t</sup> Matthew. Sept 25 Cleopas. Sept 25 S<sup>t</sup> Micha<a id="l79"></a>el &amp; all angels. Octob 18 S<sup>t</sup> Luke. Octob 28 Simon &amp; <a id="l80"></a>Iude. Novemb. 28 Adventus Domini. Nov. 30 S<sup>t</sup> Andrew</p>
+<sup class="note" id="ed3-ref">[Editorial&nbsp;Note&nbsp;3]</sup>
+<span class="pagenumber" id="p005v"> &lt;5v&gt; </span>
+<div class="transtable"><br><br><table>
+<tbody><tr><td></td> <td></td> <td>Guns</td> <td></td> <td></td></tr>
+<tr><td>–</td><td>Soleil Roial</td> <td>Count Tourville</td> <td>104</td> <td>120</td> <td>106</td></tr>
+<tr><td></td><td>L'Ambitieux</td> <td>Chevalier de Villette <a id="l81"></a>Vice Admiral of the Navy</td> <td>104</td> <td></td> <td>96</td></tr>
+<tr><td>–</td><td>L'Admirable</td> <td>Monsieur Beaujeu</td> <td>90</td> <td>64</td> <td>90</td></tr>
+<tr><td></td><td>La Magnifique</td> <td>M<sup>r</sup> Cottologon Rere Ad. of <a id="l82"></a>the blue</td> <td>76</td> <td></td> <td>76</td></tr>
+<tr><td>–</td><td>Le S<sup>r</sup> Philippe</td> <td>M<sup>r</sup> Infreville</td> <td>76</td> <td>80</td> <td>84</td></tr>
+<tr><td>–</td><td>Le Conquerant</td> <td>Du Magnon</td> <td>76</td> <td>66</td> <td>84</td></tr>
+<tr><td></td><td>Le Triomphant</td> <td>M<sup>r</sup> Bellemont</td> <td>74</td> <td></td> <td>76</td></tr>
+<tr><td>–</td><td>Le Tonnant</td> <td>M<sup>r</sup> De Septime</td> <td>80</td> <td>70</td> <td></td></tr>
+<tr><td>–</td><td>Le Terrible</td> <td>m<sup>r</sup> Septvilla</td> <td>80</td> <td>72</td> <td>76</td></tr>
+<tr><td>–</td><td>L'Amiable</td> <td>M<sup>r</sup> Du Rale</td> <td>68</td> <td>50</td> <td>68</td></tr>
+<tr><td>–</td><td>Le Fier</td> <td>M<sup>r</sup> Larsethois</td> <td>68</td> <td>70</td> <td>76</td></tr>
+<tr><td>–</td><td>Le Glorieux</td> <td>Le Ch. de Chateaumorant</td> <td>60</td> <td>66</td> <td>64</td></tr>
+<tr><td></td><td>Le Serieux</td> <td>M<sup>r</sup> Bernier</td> <td>60</td> <td></td> <td>64</td></tr>
+<tr><td></td><td>Le Trident</td> <td>M<sup>r</sup> Monteaud</td> <td>56</td> <td></td> <td>52</td></tr>
+
+<tr><td>–</td><td>Le Prince</td> <td>M<sup>r</sup> Bagneux</td> <td>60</td> <td>50</td> <td>60</td></tr>
+<tr><td>–</td><td>Le Sanspareil</td> <td>M<sup>r</sup> Fierille</td> <td>60</td> <td>70</td> <td>60</td></tr>
+</tbody></table></div>
+<br><br>
+<p id="par33" class="i0">Arrogant</p>
+<p id="par34" class="i0">Invincible</p>
+<p id="par35" class="i0">Strong</p>
+</div>
+
+</div><div id="endnotes"><div id="ed1" class="notez"><p><sup class="nnumber">[Editorial&nbsp;Note&nbsp;1]</sup> Folio 2 is written upside down and runs backwards from f. 2v to f. 2r.</p></div><div id="ed2" class="notez"><p><sup class="nnumber">[Editorial&nbsp;Note&nbsp;2]</sup> A series of very rough draft tables and calculations, occupying f. 3r and part of f. 3v, is here omitted from the transcript.</p></div><div id="ed3" class="notez"><p><sup class="nnumber">[Editorial&nbsp;Note&nbsp;3]</sup> Folios 4v and 5r are blank.</p></div></div><div id="notepanels"></div></div><!--end-text-container--></div></div></div></div><div id="ft"></div><script type="text/x-mathjax-config;executed=true">
+                                                MathJax.Hub.Config({
+                                                jax: ["input/MathML", "output/HTML-CSS"],
+                                                extensions: ["mml2jax.js","MathMenu.js","MathZoom.js", "AssistiveMML.js"],
+                                                });
+                                            </script><script type="text/javascript" id="MathJax-script" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div style="position: absolute; width: 0px; height: 0px; overflow: hidden; padding: 0px; border: 0px; margin: 0px;"><div id="MathJax_Font_Test" style="position: absolute; visibility: hidden; top: 0px; left: 0px; width: auto; min-width: 0px; max-width: none; padding: 0px; border: 0px; margin: 0px; white-space: nowrap; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; font-size: 40px; font-weight: normal; font-style: normal; font-family: MathJax_Main, sans-serif;"></div></div></body></html>
