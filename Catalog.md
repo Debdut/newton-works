@@ -3,7 +3,7 @@
 
 ## Contents
 - [Mathematics, Physics, Sciences](#mathematics-physics-sciences)
-- [Money, Finance, Mint](#money-finance-mint)
+- [Money, Finance, Economics](#money-finance-mint)
 - [Philosophy, Theology, Religion](#philosophy-theology-religion)
 - [Others](#others)
 
@@ -267,7 +267,7 @@
 
 
 
-### Money, Finance, Mint
+### Money, Finance, Economics
 
 
 - [Extract from [previous master] Thomas Neale's indenture.](https://github.com/Debdut/newton-works/blob/master/works/pdf/Extract%20from%20%5Bprevious%20master%5D%20Thomas%20Neale's%20-%20Isaac%20Newton%20%5BMINT00010%5D.pdf)
