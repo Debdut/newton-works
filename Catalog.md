@@ -1,9 +1,14 @@
 # Catalog
 
 
+## Contents
+- [Mathematics, Physics, Sciences](#mathematics-physics-sciences)
+- [Money, Finance, Mint](#money-finance-mint)
+- [Philosophy, Theology, Religion](#philosophy-theology-religion)
+- [Others](#others)
 
 
-## Mathematics, Physics, Sciences
+### Mathematics, Physics, Sciences
 
 
 - [Pierpont Morgan Notebook](https://github.com/Debdut/newton-works/blob/master/works/pdf/Pierpont%20Morgan%20-%20Isaac%20Newton%20%5BNATP00001%5D.pdf)
@@ -251,18 +256,18 @@
 - [Errata for Raphson's History of Fluxions](https://github.com/Debdut/newton-works/blob/master/works/pdf/Errata%20for%20Raphson's%20History%20of%20-%20Isaac%20Newton%20%5BNATP00384%5D.pdf)
 - [Unarranged fragments, mostly relating to the dispute with Leibniz](https://github.com/Debdut/newton-works/blob/master/works/pdf/Unarranged%20fragments,%20mostly%20relating%20to%20the%20-%20Isaac%20Newton%20%5BNATP00385%5D.pdf)
 - [Draft letters from Sir Isaac Newton to Pierre Varignon and others](https://github.com/Debdut/newton-works/blob/master/works/pdf/Draft%20letters%20from%20Sir%20Isaac%20Newton%20to%20Pierre%20-%20Isaac%20Newton%20%5BNATP00386%5D.pdf)
-- [](https://github.com/Debdut/newton-works/blob/master/works/pdf/%20-%20Isaac%20Newton%20%5BNATP00390%5D.pdf)
-- [](https://github.com/Debdut/newton-works/blob/master/works/pdf/%20-%20Isaac%20Newton%20%5BNATP00392%5D.pdf)
-- [](https://github.com/Debdut/newton-works/blob/master/works/pdf/%20-%20Isaac%20Newton%20%5BNATP00394%5D.pdf)
-- [](https://github.com/Debdut/newton-works/blob/master/works/pdf/%20-%20Isaac%20Newton%20%5BNATP00399%5D.pdf)
-- [](https://github.com/Debdut/newton-works/blob/master/works/pdf/%20-%20Isaac%20Newton%20%5BNATP00400%5D.pdf)
+- [Unnamed Document](https://github.com/Debdut/newton-works/blob/master/works/pdf/%20-%20Isaac%20Newton%20%5BNATP00390%5D.pdf)
+- [Unnamed Document](https://github.com/Debdut/newton-works/blob/master/works/pdf/%20-%20Isaac%20Newton%20%5BNATP00392%5D.pdf)
+- [Unnamed Document](https://github.com/Debdut/newton-works/blob/master/works/pdf/%20-%20Isaac%20Newton%20%5BNATP00394%5D.pdf)
+- [Unnamed Document](https://github.com/Debdut/newton-works/blob/master/works/pdf/%20-%20Isaac%20Newton%20%5BNATP00399%5D.pdf)
+- [Unnamed Document](https://github.com/Debdut/newton-works/blob/master/works/pdf/%20-%20Isaac%20Newton%20%5BNATP00400%5D.pdf)
 - [Various fragmentary astronomical notes, including Edmond Halley's observations on a comet](https://github.com/Debdut/newton-works/blob/master/works/pdf/Various%20fragmentary%20astronomical%20notes,%20including%20-%20Isaac%20Newton%20%5BNATP00402%5D.pdf)
 
 
 
 
 
-## Money, Finance, Mint
+### Money, Finance, Mint
 
 
 - [Extract from [previous master] Thomas Neale's indenture.](https://github.com/Debdut/newton-works/blob/master/works/pdf/Extract%20from%20%5Bprevious%20master%5D%20Thomas%20Neale's%20-%20Isaac%20Newton%20%5BMINT00010%5D.pdf)
@@ -1612,7 +1617,7 @@
 
 
 
-## Philosophy, Theology, Religion
+### Philosophy, Theology, Religion
 
 
 - ['Tuba Quarta' ('The Fourth Trumpet')](https://github.com/Debdut/newton-works/blob/master/works/pdf/'Tuba%20Quarta'%20-%20Isaac%20Newton%20%5BTHEM00001%5D.pdf)
@@ -1854,7 +1859,7 @@
 
 
 
-## Others
+### Others
 
 
 - [Fitzwilliam Notebook](https://github.com/Debdut/newton-works/blob/master/works/pdf/Fitzwilliam%20-%20Isaac%20Newton%20%5BALCH00069%5D.pdf)
