@@ -26,7 +26,8 @@ async function scrape () {
     const link = links[index]
     try {
       const file = await getPage(page, link)
-      files = files.push(file)
+      files.push(file)
+
       console.log(index+1, file.name)
     } catch (error) {
       console.log(error.message)
