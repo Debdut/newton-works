@@ -1,5 +1,5 @@
 const BASE_URL = 'http://www.newtonproject.ox.ac.uk/texts/newtons-works/all?n=25&name=1&tr=1&sort=date&order=asc'
-const MAX_PAGES = 30
+const MAX_PAGES = 1712
 
 async function getLinks (page) {
   let links = []
