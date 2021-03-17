@@ -36,6 +36,8 @@ async function scrape () {
 
   console.groupEnd()
 
+  files
+    .sort((a, b) => a.id > b.id)
   await fs.writeFile(path.resolve(__dirname, '..', 'works', 'files.json'), JSON.stringify(files, null, 2))
 
   await browser.close()

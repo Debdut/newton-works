@@ -48,7 +48,7 @@ async function getPage (page, link) {
   await fs.writeFile(path.resolve(__dirname, '..', 'works', 'html', `${fileName}.html`), html)
   await page.pdf({ path: path.resolve(__dirname, '..', 'works', 'pdf', `${fileName}.pdf`), format: 'A4' })
 
-  return { name, fileName }
+  return { name, fileName, id}
 }
 
 module.exports = getPage
