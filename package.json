@@ -6,11 +6,12 @@
   "scripts": {
     "test": "mocha",
     "start": "node script/index.js",
-    "clean": "rm -rf works && mkdir -p works/pdf && mkdir works/html"
+    "clean": "rm -rf works && mkdir -p works/pdf && mkdir works/html && touch works/pdf/.keep works/html/.keep"
   },
   "author": "Debdut Karmakar <iawaiponly@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "filenamify": "^4.2.0",
     "puppeteer": "^8.0.0"
   }
 }

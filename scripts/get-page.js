@@ -1,5 +1,6 @@
 const path = require('path')
 const fs = require('fs').promises
+const filenamify = require('filenamify')
 
 const BASE_URL = 'http://www.newtonproject.ox.ac.uk'
 
@@ -13,11 +14,21 @@ async function getPage (page, link) {
 
   let html = await page.content()
   const delayTime = (html.length / 20) + 2000
-  const name = await page.evaluate(() => {
+  let name = (await page.evaluate(() => {
     const heading = document.querySelector('h1')
     return heading.innerText
       .trim()
-  })
+  }))
+  name = name
+    .split('(')[0]
+  if (name.length > 0) {
+    name = name
+      .substring(0, 50)
+      .split(' ')
+    name.pop()
+    name = name
+      .join(' ')
+  }
   
   await delay(delayTime)
   await page.evaluate(() => {
@@ -32,7 +43,7 @@ async function getPage (page, link) {
   })
   html = await page.content()
   
-  const fileName = `${name} - Isaac Newton [${id}]`
+  const fileName = filenamify(`${name} - Isaac Newton [${id}]`)
 
   await fs.writeFile(path.resolve(__dirname, '..', 'works', 'html', `${fileName}.html`), html)
   await page.pdf({ path: path.resolve(__dirname, '..', 'works', 'pdf', `${fileName}.pdf`), format: 'A4' })
